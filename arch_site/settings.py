@@ -41,13 +41,10 @@ INSTALLED_APPS = [
     'website',
 ]
 
+
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'whitenoise.middleware.WhiteNoiseMiddleware',  
-    ...
-]
-
-MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -138,16 +135,4 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 
-# analoga thn etairia mail,(gmail)
-
-#email settings 
-# EMAIL_HOST = 'smtp.gmail.com'
-# EMAIL_PORT = 587
-# EMAIL_HOST_USER = 'natalia'
-# EMAIL_HOST_PASSWORD = ''
-# EMAIL_USE_TLS = True
-
-#myaccount.google.com/lesssecureapps
-#https://accounts.google.com/DisplayUnlockCaptcha
-#myaccount.google.com/apppasswords
 
