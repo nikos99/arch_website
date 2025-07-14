@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-nf_^&wiuspqcrfj@+h$$-%cplht8*jb@qpq1pig9ucv^w5y8!r
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['tragoudara-archon.com', 'your-render-app.onrender.com']
+ALLOWED_HOSTS = ['tragoudara-archon.com', 'https://arch-website-t5qw.onrender.com']
 
 
 # Application definition
