@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-nf_^&wiuspqcrfj@+h$$-%cplht8*jb@qpq1pig9ucv^w5y8!r
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['tragoudara-archon.com', 'arch-website-t5qw.onrender.com']
+ALLOWED_HOSTS = ['tragoudara-archon.com', 'arch-website-1.onrender.com']
 
 
 # Application definition
@@ -39,6 +39,12 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'website',
+]
+
+MIDDLEWARE = [
+    'django.middleware.security.SecurityMiddleware',
+    'whitenoise.middleware.WhiteNoiseMiddleware',  
+    ...
 ]
 
 MIDDLEWARE = [
