@@ -1,0 +1,3 @@
+ενεργοποιηση venv: source virtual/Script/Activate
+pip freeze : τι ειναι εγκατεστημενο στο venv
+run server : python manage.py runserver 
